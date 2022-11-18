@@ -52,7 +52,6 @@ fn validate_strict(password: &Vec<u32>) -> bool {
 
 
 fn add_1(v: &mut Vec<u32>) {
-
     let mut idx: usize = v.len() -1;
     let mut carry = true;
 
